@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_mapbox/presentation/routes.dart';
+
+import 'src/presentation/routes.dart';
 
 void main() => runApp(const MyApp());
 
@@ -13,6 +14,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData.dark(),
       initialRoute: 'home',
       routes: routes,
+      debugShowCheckedModeBanner: false,
     );
   }
 }
